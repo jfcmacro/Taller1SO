@@ -3,12 +3,14 @@
 #include <stdio.h>
 #include <unistd.h>
 
+
 int
 main(int argc, char *argv) {
 
   extern char *optarg;
   extern int optind, opterr, optopt;
   int option;
+
   /* 
    * Verificando los argumentos
    */
