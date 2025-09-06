@@ -1,6 +1,6 @@
 .phony: clean
 
-all: ListaDeArgumentos ManejoDeArgumentos ManejoError MiEnv VariableAmbiente
+all: lista_de_argumentos ManejoDeArgumentos ManejoError MiEnv VariableAmbiente
 
 clean:
-	rm -f ListaDeArgumentos ManejoDeArgumentos ManejoError MiEnv VariableAmbiente
+	rm -f lista_de_argumentos ManejoDeArgumentos ManejoError MiEnv VariableAmbiente
