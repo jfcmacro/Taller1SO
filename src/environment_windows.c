@@ -1,4 +1,3 @@
-/* MiEnvW.c */
 #include <stdio.h>
 #include <Windows.h>
 
@@ -24,6 +23,7 @@ main(int argc, char *argv[]) {
     }
   }
 
-    FreeEnvironmentStrings(lpvEnvironment);
-    return 0;
+  FreeEnvironmentStrings(lpvEnvironment);
+  
+  return 0;
 }

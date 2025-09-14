@@ -1,16 +1,16 @@
 # Sistemas Operativos - Taller 1
 
 Programar consiste en crear una implementación de una solución, lo
-sufientemente genérica, que a través de parámetros, se puede cambiar
+suficientemente genérica para que a través de parámetros, se puede cambiar
 el comportamiento de dicha solución, sin tener que cambiar el código.
 
 Normalmente, esto lo observamos la declaración de funciones, que
 reciben parámetros que le permtien modificar consistente la solución,
-por ejemplo tememos una funció de ordenamiento (`sort`), que además
-recibe los datos a ordenar, puede tener recibir un parámetro que
-representa la función de comparación, esto hace que el ordenamiento se
-pueda hace utilizando diferentes criterios, sin tener que modificar
-el programa.
+por ejemplo tememos una función de ordenamiento (`sort`), que además
+de recibir en un argumento los datos a ordenar, puede tener recibir un
+parámetro que representa la función de comparación. Esto parámetros,
+hacen que el ordenamiento se pueda hace utilizando diferentes
+criterios, sin tener que modificar el programa.
 
 En la programación actual, se requiere construir programas que
 implementen la solución más general y que a través de los parámetros
